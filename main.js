@@ -178,7 +178,7 @@ const ie=e=>t=>"function"==typeof t?((e,t)=>(window.customElements.define(e,t),t
         <spreadsheet-cell>${Ie(s)}</spreadsheet-cell>
         <spreadsheet-cell>${Ne(Te(s))}</spreadsheet-cell>
       </spreadsheet-row>
-      `;let a;return console.log("notes",r),console.log("+notes != null",null!=+r),a=null!=r&&""!==r?z`<span style="color:rgb(115,115,115);" id="${n}-notes" contenteditable="true">${r}</span>`:z`<input id="${n}-notes" type="text" />`,z`
+      `;let a;return a=null!=r&&""!==r?z`<span style="color:rgb(115,115,115);" id="${n}-notes" contenteditable="true">${r}</span>`:z`<input id="${n}-notes" type="text" />`,z`
       <spreadsheet-row>
         <spreadsheet-cell>${De(i)}</spreadsheet-cell>
         <spreadsheet-cell>${Oe(i)}</spreadsheet-cell>
