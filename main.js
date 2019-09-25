@@ -273,7 +273,7 @@ const ie=e=>t=>"function"==typeof t?((e,t)=>(window.customElements.define(e,t),t
           ${this.timerRunning?z`
             <timesheet-row stillRunning="true" .data=${r}></timesheet-row>
           `:""}
-          ${this.timerRunning?z`<button class="btn-clock mt-1" @click="${this.handleTimerBtn}">Clock In</button>`:z`<button class="btn-clock out mt-1" @click="${this.handleTimerBtn}">Clock Out</button>`}
+          ${this.timerRunning?z`<button class="btn-clock out mt-1" @click="${this.handleTimerBtn}">Clock Out</button>`:z`<button class="btn-clock mt-1" @click="${this.handleTimerBtn}">Clock In</button>`}
         </section>
       </main>
       <footer-view></footer-view>
